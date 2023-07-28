@@ -63,7 +63,7 @@ public class Main {
         int ind = 0;
 
         if (answer < 1 && countRomeNum.value == 2) {
-            throw new IOException("Римское число меньше 0");
+            throw new IOException("Римское число меньше 1");
         } else if (answer >= 1 && countRomeNum.value == 2){
             while(ind < keys.length) {
                 while(answer >= vals[ind]) {
@@ -121,8 +121,8 @@ public class Main {
             }
         }
         int num = numArrayToNum(numArray);
-        if (num > 10 || num < 0) {
-            throw new IOException("Допустимы числа от 1 до 10");
+        if (num > 10 || num <= 0) {
+            throw new IOException("Недопустимый ввод");
         }
         return num;
     }
