@@ -22,12 +22,9 @@ class IntHolder {
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        /*IntHolder testInt = new IntHolder(9);
-        System.out.println(testInt);
-        testChangeInt(testInt);
-        System.out.println(testInt);
-        */while (true) {
-            System.out.println(inputScan());
+        while (true) {
+            System.out.print("Введите выражение: ");
+            System.out.println("Ответ: " + inputScan());
         }
     }
 
