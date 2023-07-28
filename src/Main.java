@@ -4,9 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import static java.lang.Math.pow;
 
-// Методы операций через массивы
-// Римские цифвры в enum?
-// Обрбатываем ввод через split?
 class IntHolder {
     public Integer value;
 
